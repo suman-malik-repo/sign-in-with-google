@@ -19,7 +19,7 @@ passport.use(new GoogleStrategy({
     clientSecret: process.env.GOOGLE_CLIENT_SECRET, // Google Client Secret from environment variables
     callbackURL: "/auth/google/callback" // Callback URL after successful authentication
 }, (accessToken, refreshToken, profile, done) => {
-    console.log(profile);
+    // console.log(profile);
 
     return done(null, profile); // Pass user profile to callback
 }));
