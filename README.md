@@ -13,7 +13,7 @@ This is a **Node.js Express** application that allows users to **sign in with Go
 ## Installation
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/your-repo/google-oauth-express.git
+git clone https://github.com/suman-malik-repo/sign-in-with-google.git
 cd google-oauth-express
 ```
 
