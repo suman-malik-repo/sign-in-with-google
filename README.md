@@ -1,4 +1,5 @@
 # Google OAuth Authentication with Express & JWT (No Database)
+## Suman Malik repo
 
 This is a **Node.js Express** application that allows users to **sign in with Google** using **OAuth 2.0**. The authentication is handled with **Passport.js**, and user sessions are maintained using **JWT (JSON Web Token)** stored in HTTP-only cookies. This approach ensures that the user stays logged in even after a server restart, without requiring a database.
 
